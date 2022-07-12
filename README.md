@@ -21,3 +21,13 @@ print('score', model(**inp).logits[:, 1])
 ### word orders as the model is order invariant:
 # scores: [-2.9463, -2.9463]
 ```
+
+
+MSMARCO Testset 2020 on Nist Judgements:
+
+```
+NDCG@10: 65.79 
+MAP@1000: 42.64 
+RR@1000: 82.82
+Recall@100: 68.21
+```
